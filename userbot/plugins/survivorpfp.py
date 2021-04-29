@@ -1,6 +1,6 @@
 """
 Time In Profile Pic.....
-Command: `.survivorpfp`,.alandp,.epp
+Command: `.survivorpfp`,.appudp,.epp
 
 Custom / Modified Plugin for some magical effects by this Legendary Guy @Sur_vivor
 
@@ -46,7 +46,7 @@ TELEGRAPH_MEDIA_LINKS = [
 ]
 
 TELEGRAPH_MEDIA_LINKSS = [
-    "https://telegra.ph/file/b2cea1712ebaca603e6f4.jpg",
+    "https://telegra.ph/file/fcda9959307eb4ef78c37.jpg",
 ]
 
 TELEGRAPH_MEDIA_LINKSSS = [
@@ -88,7 +88,7 @@ async def autopic(event):
             return
 
 
-@bot.on(admin_cmd(pattern="alandp ?(.*)"))
+@bot.on(admin_cmd(pattern="appudp?(.*)"))
 async def autopic(event):
     while True:
         piclink = random.randint(0, len(TELEGRAPH_MEDIA_LINKSS) - 1)
@@ -101,7 +101,7 @@ async def autopic(event):
             pass
         shutil.copy(downloaded_file_name, photo)
         Image.open(photo)
-        current_time = datetime.now().strftime("@Sur_vivor \n\n  %H:%M:%S \n %d/%m/%y")
+        current_time = datetime.now().strftime("@CuTE_TeeN_rED\n\n  %H:%M:%S \n %d/%m/%y")
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
         fnt = ImageFont.truetype(FONT_FILE_TO_USEE, 35)
@@ -134,7 +134,7 @@ async def autopic(event):
         shutil.copy(downloaded_file_name, photo)
         Image.open(photo)
         current_time = datetime.now().strftime(
-            "@Sur_vivor \n \nTime: %H:%M:%S \nDate: %d/%m/%y"
+            "danger_of_telegram\n \nTime: %H:%M:%S \nDate: %d/%m/%y"
         )
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
