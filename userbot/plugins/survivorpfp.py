@@ -1,6 +1,6 @@
 """
 Time In Profile Pic.....
-Command: `.survivorpfp`,.appudp,.epp
+Command: `.appu`,.appudp,.epp
 
 Custom / Modified Plugin for some magical effects by this Legendary Guy @Sur_vivor
 
@@ -29,20 +29,20 @@ FONT_FILE_TO_USEE = "userbot/helpers/styles/digital.ttf"
 
 # Add telegraph media links of profile pics that are to be used
 TELEGRAPH_MEDIA_LINKS = [
-    "https://telegra.ph/file/2eab4f64ead6fbf41bf87.jpg",
-    "https://telegra.ph/file/6bef1ffbaddc5230c2ae1.jpg",
-    "https://telegra.ph/file/a03f035e83098a7c5bded.jpg",
-    "https://telegra.ph/file/f0a230a30b9952f56d2cd.jpg",
-    "https://telegra.ph/file/d00e6bb4b4a483099c992.jpg",
-    "https://telegra.ph/file/1270ed675db61e6c84eea.jpg",
-    "https://telegra.ph/file/32743c9389915b02fdea7.jpg",
-    "https://telegra.ph/file/8c02a1430502bea931ff7.jpg",
-    "https://telegra.ph/file/1ec37d367bb59ac56131d.jpg",
-    "https://telegra.ph/file/e9aeef4fd2e3d0b9e9f24.jpg",
-    "https://telegra.ph/file/28c242ea9f8cf32db4c21.jpg",
-    "https://telegra.ph/file/c089426ca031d1f6297b0.jpg",
-    "https://telegra.ph/file/a196b6c07f0a659daf058.jpg",
-    "https://telegra.ph/file/69f19acd13b1eaf3fc120.jpg",
+    "https://telegra.ph/file/fcda9959307eb4ef78c37.jpg",
+    "https://telegra.ph/file/094eff3306c9e30479ca8.jpg",
+    "https://telegra.ph/file/b450cb516181680d22bb5.jpg",
+    "https://telegra.ph/file/1cd9690b3b6e2ea1611ec.jpg",
+    "https://telegra.ph/file/bd8708a914046027240bd.jpg",
+    "https://telegra.ph/file/4e5f907368c8d168885be.jpg",
+    "https://telegra.ph/file/dffe4a944a3bf596fa41f.jpg",
+    "https://telegra.ph/file/3d2d1f52d3df87ca19002.jpg",
+    "https://telegra.ph/file/8d5b92925517c206fe6be.jpg",
+    "https://telegra.ph/file/416a4bc6b3db00041f22d.jpg",
+    "https://telegra.ph/file/fe6cc38245a171f712f1e.jpg",
+    "https://telegra.ph/file/cdf95fae0e39edd0b2f5a.jpg",
+    "https://telegra.ph/file/61d2d155d5199fc5c4b82.jpg",
+    "https://telegra.ph/file/2851189ea7d8d3e686da0.jpg",
 ]
 
 TELEGRAPH_MEDIA_LINKSS = [
@@ -54,7 +54,7 @@ TELEGRAPH_MEDIA_LINKSSS = [
 ]
 
 
-@bot.on(admin_cmd(pattern="survivorpfp ?(.*)"))
+@bot.on(admin_cmd(pattern="appu ?(.*)"))
 async def autopic(event):
     while True:
         piclink = random.randint(0, len(TELEGRAPH_MEDIA_LINKS) - 1)
