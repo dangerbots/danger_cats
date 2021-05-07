@@ -1,5 +1,5 @@
 import time
-import time
+
 from platform import python_version
 
 from telethon import version
