@@ -44,8 +44,8 @@ async def amireallyalive(alive):
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {mention}\n\n"
             "   **[DANGER_CAT]**(https://github.com/dangerbots/danger_cat)  |  **[GoodCat]**(https://github.com/sandy1709/catuserbot)  ",
-        [catuserbot]<buttonurl:https://t.me/catuserbot17>
-     )
+          )
+     
 
 @bot.on(admin_cmd(outgoing=True, pattern="ialive$"))
 @bot.on(sudo_cmd(pattern="ialive$", allow_sudo=True))
