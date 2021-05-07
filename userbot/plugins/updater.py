@@ -18,7 +18,7 @@ UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 
 if Config.UPSTREAM_REPO == "goodcat":
     UPSTREAM_REPO_URL = "https://github.com/sandy1709/catuserbot"
-elif Config.UPSTREAM_REPO == "surcat":
+elif Config.UPSTREAM_REPO == "danger_cat":
     UPSTREAM_REPO_URL = "https://github.com/dangerbots/danger_cat"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
