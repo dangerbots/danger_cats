@@ -9,7 +9,7 @@ from . import ALIVE_NAME, StartTime, catversion, get_readable_time, mention, rep
 DEFAULTUSER = ALIVE_NAME or "SurCat"
 CAT_IMG = Config.ALIVE_PIC
 CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY BOT IS RUNNING SUCCESSFULLY ✮"
-EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
+EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ❣️ "
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
@@ -43,7 +43,7 @@ async def amireallyalive(alive):
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {mention}\n\n"
-            "   **[SurCat]**(https://github.com/Sur-vivor/CatUserbot)  |  **[GoodCat]**(https://github.com/sandy1709/catuserbot)  |  **[Support]**(https://t.me/catuserbot_support) ",
+            "   **[DANGER_CAT]**(https://github.com/dangerbots/danger_cat)  |  **[GoodCat]**(https://github.com/sandy1709/catuserbot)  ",
         )
 
 
