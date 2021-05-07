@@ -46,9 +46,11 @@ async def amireallyalive(alive):
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {mention}\n\n"
-            "   **[danger_cat]**(https://github.com/dangerbots/danger_cat)  |  **[GoodCat]**(https://github.com/sandy1709/catuserbot)  |  **[Support]**(https://t.me/catuserbot_support) ",
-        )
-
+            "   **[danger_cat]**(https://github.com/dangerbots/danger_cat)  |  **[GoodCat]**(https://github.com/sandy1709/catuserbot) ",
+[        
+InlineKeyboardButton(
+                        "SOURCE CODE👻", url="https://t.me/Miss_meenuus_bot"
+                    ),
 
 @bot.on(admin_cmd(outgoing=True, pattern="ialive$"))
 @bot.on(sudo_cmd(pattern="ialive$", allow_sudo=True))
