@@ -105,4 +105,4 @@ CMD_HELP.update(
       \nSet `ALIVE_PIC` var for media in alive message"
     }
 )
-© 2021 GitHub, Inc.
+© 2021 GitHub, Inc
