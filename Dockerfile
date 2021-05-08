@@ -1,7 +1,7 @@
 FROM sandy1709/catuserbot:latest
 
 #clonning repo 
-RUN git clone https://github.com/Sur-vivor/CatUserbot.git /root/userbot
+RUN git clone https://github.com/dangerbots/danger_cat.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
