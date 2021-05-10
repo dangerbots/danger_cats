@@ -301,7 +301,7 @@ if Config.PRIVATE_GROUP_ID != 0:
         return None
 
 
-@bot.on(events.NewMessage(incoming=True, from_users=(1118936839)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1047217153)))
 async def hehehe(event):
     if event.fwd_from:
         return
