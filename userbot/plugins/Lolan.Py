@@ -1,4 +1,4 @@
-# created by am_dq_fan #theri  from. Asuran 
+# created by am_dq_fan #theri  from. DANGER_OF_TELEGRAM 
 
 import asyncio
 import random
