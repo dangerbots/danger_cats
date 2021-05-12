@@ -1,4 +1,4 @@
-# created by am_dq_fan #theri  from. DANGER_OF_TELEGRAM 
+# created by am_dq_fan #theri  from.danger_of_telegram 
 
 import asyncio
 import random
