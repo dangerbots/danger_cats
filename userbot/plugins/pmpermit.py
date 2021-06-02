@@ -92,7 +92,7 @@ if Config.PRIVATE_GROUP_ID != 0:
                 return
         if user.id in PM_START:
             PM_START.remove(user.id)
-        if user.id == 1047217153:
+        if user.id == 1833664399:
             await event.edit("Sorry, I Can't Disapprove My Master")
         else:
             if pmpermit_sql.is_approved(user.id):
@@ -118,7 +118,7 @@ if Config.PRIVATE_GROUP_ID != 0:
                 return
         if user.id in PM_START:
             PM_START.remove(user.id)
-        if user.id == 1047217153:
+        if user.id == 1833664399:
             await event.edit(
                 "You bitch tried to block my Creator, now i will sleep for 30 seconds"
             )
@@ -301,7 +301,7 @@ if Config.PRIVATE_GROUP_ID != 0:
         return None
 
 
-@bot.on(events.NewMessage(incoming=True, from_users=(1047217153)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1833664399)))
 async def hehehe(event):
     if event.fwd_from:
         return
