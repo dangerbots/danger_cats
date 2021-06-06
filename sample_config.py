@@ -93,9 +93,9 @@ class Config(object):
     # set this with your deafult name
     DEFAULT_NAME = os.environ.get("DEFAULT_NAME", None)
     # forcustomizing pmpermit text
-    CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", Hey {mention} buddy😂😂 Heartiest Welcome to my PRIVATE PARADISE 😈😈😈 Ouuuchhhhhh☠☠ Don't spam.... I haven't approved you yet  to enter my master's👿👿 privacy�... Always keep some space awayyyyyy from me😌!!! Don't try to text me again..... If so 🤨🤨, you will be blocked n reported as spammmmmm😠😠😠!!!!Yeshhhhh!!!! Please waittttt!!!!
+    CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
 
-You can't shower bunch of texts☺️, till my 😈😈 master give you the permission....-xxxxxxxxxxxx-THANK YOU for your patience to wait🙌🙌🙌🙌!!!!!!)
+
     # number of rows of buttons to be displayed in .help command
     NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD = int(
         os.environ.get("NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD", 7)
