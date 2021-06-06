@@ -262,25 +262,25 @@ if Config.PRIVATE_GROUP_ID != 0:
             else:
 
                 USER_BOT_NO_WARN = (
-                    f"`hey {mention} buddy👻Heartiest Welcome to my PRIVATE PARADISE 😈😈😈 `"
                     
+                  f"Hi {mention}, I haven't approved you yet to personal message me, Don't spam my inbox." f"Just say the reason and wait until you get approved.\ \n\nyou have {warns}/{totalwarns} warns\ \n\nSend /start so that my master can decide why you're here." ) 
 
 
-f"`Heartiest Welcome to my PRIVATE PARADISE 😈😈😈`
 
-Ouuuchhhhhh☠☠
 
-`Don't spam.... I haven't approved you yet to enter my master's👿👿 privacy📨... Always keep some space awayyyyyy from me😌!!! Don't try to text me again..... If so 🤨🤨, you will be blocked n reported as spammmmmm😠😠😠!!!!`
 
-`Yeshhhhh!!!! Please waittttt!!!!`
 
-`You can't shower bunch of texts☺️, till my 😈😈 master give you the permission....`
-`-x--x--x--x--x--x--x--x--x--x--x--x-`
 
-`THANK YOU 🤝 for your patience to wait🙌🙌🙌🙌!!!!!!.`"
+
+
+
+
+
+
+
                                    
                                     
-                )
+                
         else:
             if Config.CUSTOM_PMPERMIT_TEXT:
                 USER_BOT_NO_WARN = Config.CUSTOM_PMPERMIT_TEXT.format(
