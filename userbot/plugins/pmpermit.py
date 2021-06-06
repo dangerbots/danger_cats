@@ -262,22 +262,22 @@ if Config.PRIVATE_GROUP_ID != 0:
             else:
 
                 USER_BOT_NO_WARN = (
-                    f"`hey {mention} buddy👻
+                    f"`hey {mention} buddy👻Heartiest Welcome to my PRIVATE PARADISE 😈😈😈 `"
                     
--x--x--x--x--x--x--x--x--x--x--x--x-
 
-Heartiest Welcome to my PRIVATE PARADISE 😈😈😈
+
+f"`Heartiest Welcome to my PRIVATE PARADISE 😈😈😈`
 
 Ouuuchhhhhh☠☠
 
-Don't spam.... I haven't approved you yet to enter my master's👿👿 privacy📨... Always keep some space awayyyyyy from me😌!!! Don't try to text me again..... If so 🤨🤨, you will be blocked n reported as spammmmmm😠😠😠!!!!
+`Don't spam.... I haven't approved you yet to enter my master's👿👿 privacy📨... Always keep some space awayyyyyy from me😌!!! Don't try to text me again..... If so 🤨🤨, you will be blocked n reported as spammmmmm😠😠😠!!!!`
 
-Yeshhhhh!!!! Please waittttt!!!!
+`Yeshhhhh!!!! Please waittttt!!!!`
 
-You can't shower bunch of texts☺️, till my 😈😈 master give you the permission....
--x--x--x--x--x--x--x--x--x--x--x--x-
+`You can't shower bunch of texts☺️, till my 😈😈 master give you the permission....`
+`-x--x--x--x--x--x--x--x--x--x--x--x-`
 
-THANK YOU 🤝 for your patience to wait🙌🙌🙌🙌!!!!!!.`**"
+`THANK YOU 🤝 for your patience to wait🙌🙌🙌🙌!!!!!!.`"
                                    
                                     
                 )
